@@ -8,6 +8,8 @@ let x = 0
         x = x+1;
         musik.play();
         document.getElementById("Score").innerText = "x" + x;
+        let y = 4/x
+        document.getElementById("bild").style.animationDuration = `${y}s`;
         if(x >= 100){
           document.getElementById("animatedBackground").style.backgroundImage = "url('images/giphy.gif')"; 
         document.getElementById("animatedBackground").style.backgroundSize = "10%";
