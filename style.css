@@ -60,6 +60,10 @@ body {
   #animatedBackground {
     background: url("images/backgroundred.png");
   }
+  .bild { 
+    animation: perspect 10s infinite linear;
+    width: 100%;
+}
 }
 
 @keyframes animatedBackground {
