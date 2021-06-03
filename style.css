@@ -56,6 +56,11 @@ body {
   background-size: auto 100%;
   animation: animatedBackground 500s linear infinite;
 }
+@media only screen and (max-width: 600px) {
+  #animatedBackground {
+    background: url("images/backgroundred.png");
+  }
+}
 
 @keyframes animatedBackground {
   from {
